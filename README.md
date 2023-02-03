@@ -1,16 +1,45 @@
-# the_paper_trail_store
+# The Paper Trail Store
 
-Sem. IV - Mini-Project
+## A Case Study of Graph Neural Networks (GNNs) Using Recommender Systems
+This project is a book recommendation system that utilizes Graph Neural Networks and a user-friendly Flutter front-end to provide personalized suggestions for books to read.
 
-## Getting Started
+## Scope
+The Scope of project includes: 
+- Finding data related to books and the preferences of certain users towards certain books
+- Cleaning data to make it fit for the purpose of learning from it.
+- Model the data in terms of a graph and to prepare it for a GNN model.
+- Develop a functioning algorithm to predict certain books on user attributes.
+- Develop an elegant front-end application to display our results in a virtual environment.
+- Host our back-end application so that it is accessible from anywhere to devices connected to the internet.
 
-This project is a starting point for a Flutter application.
+## Flutter Implementation
+As mentioned earlier, the frontend for the project was deployed using Flutter. We created a landing page which showcases our company logo along with login and sign up buttons. 
 
-A few resources to get you started if this is your first Flutter project:
+For creating an account, it prompts the user to give his age and location along with the usual email and password details. With this information, first and foremost, it makes an API call to the ML model giving it the necessary age and location details. It asynchronously waits for the API to return the JSON file with the list of books recommended. If the call is unsuccessful, it displays the appropriate error message. If successful, it stores the book in the database pertaining to the user. The aforementioned user details also get stored. 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+After successfully login in, the user is greeted with a welcome screen which transitions into the user’s home page. It displays the Discover Books section which shows the books recommended by the graph neural network and also the New & Trending section which uses the data retrieved from the API call forgetting the latest books and also. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A settings page contains an about us, donate a coffee, support/updates and email us with a logout button.
+ 
+Landing page: 
+![Landing Page](/images/Landing Page.jpg)
+
+Login page:
+![Login Page](/images/Login Page.jpg)
+
+Registration Page:
+![Registration Page](/images/Registration Page.jpg)
+
+Welcome page:
+![Welcome Page](/images/Welcome Page.jpg)
+
+Home Page:
+![Home Page](/images/Home Page.jpg)
+
+Settings Page:
+![Settings Page](/images/Settings Page.jpg)
+ 
+## Authors
+* [Krishna Shetty](https://github.com/krishna-shetty)
+* [Nishant Rajadhyaksha](https://github.com/nishant42491)
+* [Mayank Shetty](https://www.linkedin.com/in/mayank-shetty-a79524249)
