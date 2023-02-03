@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "416068677082",
+    "project_id": "the-paper-trail-store",
+    "storage_bucket": "the-paper-trail-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416068677082:android:2eec7bcfb502fc734964e3",
+        "android_client_info": {
+          "package_name": "com.krishnashetty.the_paper_trail_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416068677082-l806du3to886v9ntoak944pikq7lmm5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcaCa2IFN1I4UIM_XyE8hyGO4Khe3M-rE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416068677082-l806du3to886v9ntoak944pikq7lmm5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
