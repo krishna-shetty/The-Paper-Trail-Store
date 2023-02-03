@@ -12,10 +12,6 @@ The Scope of project includes:
 - Develop an elegant front-end application to display our results in a virtual environment.
 - Host our back-end application so that it is accessible from anywhere to devices connected to the internet.
 
-The attributes out of scope for the project are: -
-- The algorithm uses a few attributes such as location and age and is probably not best suited to be used in a production environment.
-- The front-end application exists solely to demonstrate a potential user experience when using our recommendation system hence it does not contain other functionalities an app may contain such as a checkout system or payment processing systems etc.
-
 ## Flutter Implementation
 As mentioned earlier, the frontend for the project was deployed using Flutter. We created a landing page which showcases our company logo along with login and sign up buttons. 
 
@@ -25,12 +21,23 @@ After successfully login in, the user is greeted with a welcome screen which tra
 
 A settings page contains an about us, donate a coffee, support/updates and email us with a logout button.
  
-Landing page:
+Landing page: 
+![Landing Page](images/Landing Page.jpg)
+
 Login page:
+![Login Page](images/Login Page.jpg)
+
 Registration Page:
+![Registration Page](images/Registration Page.jpg)
+
 Welcome page:
+![Welcome Page](images/Welcome Page.jpg)
+
 Home Page:
+![Home Page](images/Home Page.jpg)
+
 Settings Page:
+![Settings Page](images/Settings Page.jpg)
  
 ## Authors
 * [Krishna Shetty](https://github.com/krishna-shetty)
