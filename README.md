@@ -22,22 +22,22 @@ After successfully login in, the user is greeted with a welcome screen which tra
 A settings page contains an about us, donate a coffee, support/updates and email us with a logout button.
  
 Landing page: 
-![Landing Page](images/Landing Page.jpg)
+![Landing Page](/images/Landing Page.jpg)
 
 Login page:
-![Login Page](images/Login Page.jpg)
+![Login Page](/images/Login Page.jpg)
 
 Registration Page:
-![Registration Page](images/Registration Page.jpg)
+![Registration Page](/images/Registration Page.jpg)
 
 Welcome page:
-![Welcome Page](images/Welcome Page.jpg)
+![Welcome Page](/images/Welcome Page.jpg)
 
 Home Page:
-![Home Page](images/Home Page.jpg)
+![Home Page](/images/Home Page.jpg)
 
 Settings Page:
-![Settings Page](images/Settings Page.jpg)
+![Settings Page](/images/Settings Page.jpg)
  
 ## Authors
 * [Krishna Shetty](https://github.com/krishna-shetty)
